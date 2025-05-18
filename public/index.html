@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>早押しクイズゲーム</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="quiz-container">
+        <h1>早押しゲーム</h1>
+        <div class="questionBox">
+            <div id="question"></div>
+        </div>
+        <div class="selectBox">
+            <button id="selection1"></button>
+            <button id="selection2"></button>
+            <button id="selection3"></button>
+            <button id="selection4"></button>
+        </div>
+        <div id="result"></div>
+    </div>
+    <button id="reset">リセット</button>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>

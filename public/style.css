@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    font-size: 25px;
+    background: rgba(200, 200, 255);
+}
+
+.questionBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+#question{
+    background: rgb(221, 25, 25);
+    margin: 30px;
+    padding: 10px;
+}
+
+.selectBox {
+    display: block;
+    margin: auto;
+    padding: 5px;
+}
+
+.selectBox button{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+    font: black;
+    width: 400px;
+    height: 50px;
+    padding: 5px;
+    background: rgba(255, 200, 200, 0.9);
+}
